@@ -1,7 +1,7 @@
 import runpod
 
 def handler(job):
-    print(job)
+    print("the job is -->", job)
     job_input = job["input"]  # Access the input from the request
     print("the job input is", job_input)
     # Add your custom code here
